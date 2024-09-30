@@ -1,4 +1,4 @@
-  Print('This is data Science Class")
+  Print('This is Assignment.1")
 
  #Author: Glory, Date: September 18 2024< Purpose: Calculate correlation test.
  
@@ -7,7 +7,7 @@
   my_data <- mtcars
  
  # Create a hypothesis
- #I want to compare the weight of car with the mpg, more the weight, less is the gear)travel by the car 
+ #I want to compare the weight of car with the gear, more the weight, less is the gear)travel by the car 
 
   result <- cor.test(my_data$wt, my_data$gear, method="pearson")
   result
